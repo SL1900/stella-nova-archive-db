@@ -1,0 +1,26 @@
+{
+  "id": "bg-sample",
+  "type": "image",
+  "category": "illustration",
+  "sub-category": ["background"],
+  "title": "Sample Image",
+  "source": "assets/illustration/_sample.jpg",
+
+  "meta": {
+    "width": 1920,
+    "height": 1080,
+    "frames": null,
+    "version": "0.0"
+  },
+
+  "overlays": [
+    {
+      "id": "t1",
+      "frame": null,
+      "bounds": { "x": 450, "y": 290, "w": 280, "h": 130 },
+      "bounds-end": null,
+      "text": "Sample",
+      "notes": null
+    }
+  ]
+}
