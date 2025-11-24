@@ -7,7 +7,8 @@
   "category": string,
   "sub-category": string[] | null,
   "title": string,
-  "source": string,
+  "description": string,
+  "source": string[],
 
   "meta": {
     "width": integer,
@@ -22,6 +23,8 @@
       "frame": { "s": integer, "e": integer } | null,
       "bounds": { "x": integer, "y": integer, "w": integer, "h": integer },
       "bounds-end": bounds | null,
+      "rotation": integer,
+      "shear": integer,
       "text": string,
       "notes": string | null
     }, {
@@ -33,7 +36,7 @@
 
 ## ID
 
-Usually the same as file name.
+Usually similar to file name.
 
 ## Type
 
@@ -62,6 +65,10 @@ Usually the same as file name.
 
 Title of the content. A good starting point to name [ID](#id)
 
+## Description
+
+Description of the content.
+
 ## Source
 
 A path from root to target directory.
@@ -82,7 +89,7 @@ Basic metadata for backend convenience
 
 - `"width"` - full width of the content
 - `"height"` - full height of the content
-- `"frames"` - total frames of the content __(video only)__
+- `"frames"` - total frames of the content **(video only)**
 - `"version"` - game version that the content was added to the game
 
 ## Overlays
@@ -90,8 +97,10 @@ Basic metadata for backend convenience
 Overlay part on the content to highlight Nova language text.
 
 - `"id"` - unique id of an overlay
-- `"frame"` - start/end frame when overlay applies __(video only)__
-- `"bounds"`: bound of the overlay on the __image__, or start frame of the __video__
-- `"bounds-end"`: bound of the overlay at end frame __(video only)__
-- `"text"`: text content inside the overlay bound
-- `"notes"`: _optional_ context addition
+- `"frame"` - start/end frame when overlay applies **(video only)**
+- `"bounds"` - bound of the overlay on the **image**, or start frame of the **video**
+- `"bounds-end"` - bound of the overlay at end frame **(video only)**
+- `"rotation"` - rotation value of the bound [-180, 180]
+- `"shear"` - bending weight of the shape [-90, 90]
+- `"text"` - text content inside the overlay bound
+- `"notes"` - _optional_ context addition

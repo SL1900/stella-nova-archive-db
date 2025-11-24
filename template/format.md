@@ -2,7 +2,9 @@
 
 ## Naming
 
-All file name have to be __lowercase-with-dash__
+All file name have to be **lowercase-with-dash**
+
+To not make file name unnecessary long, see [prefixes](#prefixes)
 
 File extensions: image `webp/jpg`, video `mp4`, metadata `json`
 
@@ -28,7 +30,6 @@ assets/illustration/bg-sample.jpg
 assets/illustration/bg-sample.webp
 
 data/illu-bg-sample.json
-
 ```
 
 ## Prefixes
