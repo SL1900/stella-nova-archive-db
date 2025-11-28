@@ -13,13 +13,13 @@ File extensions: image `webp/jpg`, video `mp4`, metadata `json`
 ```
 assets/
 ├ <cat>/
-│ ├ <sub-cat>-<title>.<jpg/mp4>
-│ ├ <sub-cat>-<title>.<webp>
+│ ├ <sub_cat>-<title>.<jpg/mp4>
+│ ├ <sub_cat>-<title>.<webp>
 │ └ ...
 └ ...
 
 data/
-├ <cat>-<sub-cat>-<title>.json
+├ <cat>-<sub_cat>-<title>.json
 └ ...
 ```
 
