@@ -20,10 +20,14 @@ jobs:
       - name: Generate file index
         run: node .github/scripts/generateFileIndex.js
 
+      - name: Bump version
+        id: bump
+        run: node .github/scripts/bumpVersion.js
+
       - name: Commit & push index
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add fileIndex.json
-          git commit -m "Update fileIndex.json" || echo "No changes"
+          git commit -m "Update fileIndex.json v${{ steps.bump.outputs.newVersion }}" || echo "No changes"
           git push
