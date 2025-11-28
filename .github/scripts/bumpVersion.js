@@ -28,4 +28,4 @@ const updatedData =
 
 fs.writeFileSync(readmePath, updatedData);
 console.log("New version:", newVersion);
-console.log(`::set-output name=newVersion::${newVersion}`);
+fs.appendFileSync(process.env.GITHUB_OUTPUT, `newVersion=${newVersion}\n`);
