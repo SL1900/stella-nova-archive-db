@@ -3,6 +3,7 @@
   "README.md",
   "assets/UI/_",
   "assets/battle-stage/_",
+  "assets/disc/_",
   "assets/illustration/_",
   "assets/illustration/_bg-sample.jpg",
   "assets/illustration/_bg-sample.webp",
@@ -28,6 +29,7 @@
   "data/_illu-bg-sample copy 9.json",
   "data/_illu-bg-sample copy.json",
   "data/_illu-bg-sample.json",
+  "data/_sample.json",
   "template/format.md",
   "template/template.md"
 ]
