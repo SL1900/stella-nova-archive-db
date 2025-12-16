@@ -1,13 +1,13 @@
 {
-  "id": "2006_B",
+  "id": "2008_B",
   "type": "image",
   "category": "illustration",
   "sub_category": ["disc"],
-  "title": "Auspicious Glow",
+  "title": "Bubbles",
   "description": "",
   "source": [
-    "assets/illustration/disc/2006_B.webp",
-    "assets/illustration/disc/2006_B.png"
+    "assets/illustration/disc/2008_B.webp",
+    "assets/illustration/disc/2008_B.png"
   ],
 
   "meta": {
@@ -25,7 +25,7 @@
       "bounds_end": null,
       "rotation": 0,
       "shear": 0,
-      "text": "FORMLESS KIRIN",
+      "text": "BUBBLES",
       "notes": null
     }
   ]
