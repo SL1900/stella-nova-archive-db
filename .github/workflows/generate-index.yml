@@ -29,5 +29,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add fileIndex.json
-          git commit -m "Update fileIndex.json v${{ steps.bump.outputs.newVersion }}" || echo "No changes"
+          git commit -m "Update fileIndex.json v${{ steps.bump.outputs.newVersion }}" || echo "No version changes"
+          git add README.md
+          git commit -m "Update README.md" || "No changes in README.md"
           git push
