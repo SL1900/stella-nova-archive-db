@@ -21,7 +21,7 @@
     {
       "id": "title",
       "frame": null,
-      "bounds": { "x": 400, "y": 1220, "w": 900, "h": 420 },
+      "bounds": { "x": 400, "y": 1220, "w": 950, "h": 420 },
       "bounds_end": null,
       "rotation": 0,
       "shear": 0,
