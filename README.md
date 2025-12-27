@@ -8,6 +8,10 @@ Current Version:
 
 ...
 
+# CONTRIBUTION
+
+...
+
 # DISCLAIMER
 
 Yostar Games owns the original assets to the game, all credits go to its rightful owner.
