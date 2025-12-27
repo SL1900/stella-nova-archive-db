@@ -14,7 +14,7 @@
     "width": 1700,
     "height": 1700,
     "frames": null,
-    "version": "1.0"
+    "version": "1.0.0"
   },
 
   "overlays": [
@@ -26,7 +26,8 @@
       "rotation": 0,
       "shear": 0,
       "text": "ARRIVING ON THE WIND",
-      "notes": null
+      "notes": null,
+      "color": ""
     }
   ]
 }
