@@ -136,4 +136,4 @@ dist
 .pnp.*
 
 # unsolved datamine logic
-scripts/
+/scripts/
