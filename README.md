@@ -1,7 +1,7 @@
 Current Version:
 
 <!--version-start-->
-2.0.10
+2.0.11
 <!--version-end-->
 
 # ABOUT DATA
