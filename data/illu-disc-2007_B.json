@@ -1,0 +1,33 @@
+{
+  "id": "2007_B",
+  "type": "image",
+  "category": "illustration",
+  "sub_category": ["disc"],
+  "title": "Brave the Wind",
+  "description": "",
+  "source": [
+    "assets/illustration/disc/2007_B.webp",
+    "assets/illustration/disc/2007_B.png"
+  ],
+
+  "meta": {
+    "width": 1700,
+    "height": 1700,
+    "frames": null,
+    "version": "1.0.0"
+  },
+
+  "overlays": [
+    {
+      "id": "title",
+      "frame": null,
+      "bounds": { "x": 400, "y": 1220, "w": 950, "h": 420 },
+      "bounds_end": null,
+      "rotation": 0,
+      "shear": 0,
+      "text": "ARRIVING ON THE WIND",
+      "notes": null,
+      "color": ""
+    }
+  ]
+}

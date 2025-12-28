@@ -1,0 +1,86 @@
+{
+  "id": "1001_B",
+  "type": "image",
+  "category": "illustration",
+  "sub_category": [
+    "disc"
+  ],
+  "title": "Crisp Morning",
+  "description": "3* rarity disc",
+  "source": [
+    "assets/illustration/disc/1001_B.webp",
+    "assets/illustration/disc/1001_B.png"
+  ],
+  "meta": {
+    "width": 1700,
+    "height": 1700,
+    "frames": null,
+    "version": "1.0.0"
+  },
+  "overlays": [
+    {
+      "id": "title",
+      "frame": null,
+      "bounds": {
+        "x": 510,
+        "y": 120,
+        "w": 680,
+        "h": 205
+      },
+      "bounds_end": null,
+      "rotation": 0,
+      "shear": 0,
+      "text": "DAWN",
+      "notes": null,
+      "color": ""
+    },
+    {
+      "id": "title-sub",
+      "frame": null,
+      "bounds": {
+        "x": 640,
+        "y": 325,
+        "w": 420,
+        "h": 40
+      },
+      "bounds_end": null,
+      "rotation": 0,
+      "shear": 0,
+      "text": "MEMORIES",
+      "notes": null,
+      "color": ""
+    },
+    {
+      "id": "bottom_1",
+      "frame": null,
+      "bounds": {
+        "x": 700,
+        "y": 1600,
+        "w": 300,
+        "h": 34
+      },
+      "bounds_end": null,
+      "rotation": 0,
+      "shear": 0,
+      "text": "STAR RECORD",
+      "notes": null,
+      "color": ""
+    },
+    {
+      "id": "bottom_2",
+      "frame": null,
+      "bounds": {
+        "x": 590,
+        "y": 1634,
+        "w": 520,
+        "h": 25
+      },
+      "bounds_end": null,
+      "rotation": 0,
+      "shear": 0,
+      "text": "IN MEMORIES OF THE PAST",
+      "notes": null,
+      "color": ""
+    }
+  ]
+}

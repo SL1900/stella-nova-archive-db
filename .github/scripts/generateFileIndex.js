@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
 const ROOT_DIR = ".";
 const OUTPUT_FILE = "fileIndex.json";

@@ -1,0 +1,33 @@
+{
+  "id": "2008_B",
+  "type": "image",
+  "category": "illustration",
+  "sub_category": ["disc"],
+  "title": "Bubbles",
+  "description": "",
+  "source": [
+    "assets/illustration/disc/2008_B.webp",
+    "assets/illustration/disc/2008_B.png"
+  ],
+
+  "meta": {
+    "width": 1700,
+    "height": 1700,
+    "frames": null,
+    "version": "1.0.0"
+  },
+
+  "overlays": [
+    {
+      "id": "title",
+      "frame": null,
+      "bounds": { "x": 80, "y": 1340, "w": 1000, "h": 320 },
+      "bounds_end": null,
+      "rotation": 0,
+      "shear": 0,
+      "text": "BUBBLES",
+      "notes": null,
+      "color": ""
+    }
+  ]
+}
