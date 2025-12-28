@@ -1,14 +1,14 @@
-Current Version:
-
 <!--version-start-->
+
 2.0.11
+
 <!--version-end-->
 
+### Documentation Index
+
+> [Contribution](/doc/contribution.md)
+
 # ABOUT DATA
-
-...
-
-# CONTRIBUTION
 
 ...
 

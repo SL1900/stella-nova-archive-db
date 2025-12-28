@@ -44,21 +44,21 @@ Usually similar to file name.
 
 ## Category
 
-`types: "illustration", "live2D", "battle-stage", "UI", "other"`
+`types: "illustration", "live2d", "battle_stage", "ui", "other"`
 
 ## Sub-Category
 
-- illustration / live2D
+- illustration / live2d
   - background
   - character
   - disc
     - element `types: "aqua", "ignis", "terra", "ventus", "lux", "umbra"`
     - rarity (☆) `types: 3, 4, 5`
-- battle stage
-  - monolith ascension
+- battle_stage
+  - monolith_ascension
     - domain `types: "battle", "choice", "trade", "rival", "boss"`
 - UI
-  - in-game
+  - in_game
   - encyclopedia (guide)
 
 ## Title
@@ -78,7 +78,7 @@ A path from root to target directory.
 assets/
 ├ illustration/
 ├ live2D/
-├ battle-stage/
+├ battle_stage/
 ├ UI/
 └ other/
 ```
