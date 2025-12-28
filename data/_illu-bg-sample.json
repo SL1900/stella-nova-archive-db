@@ -6,8 +6,8 @@
   "title": "Sample Image",
   "description": "For template and testing purpose.",
   "source": [
-    "assets/illustration/_bg-sample.webp",
-    "assets/illustration/_bg-sample.jpg"
+    "assets/illustration/background/_sample.webp",
+    "assets/illustration/background/_sample.jpg"
   ],
 
   "meta": {
@@ -37,7 +37,7 @@
       "rotation": 0,
       "shear": 0,
       "text": "The trees are whispering...",
-      "notes": "Low confidence",
+      "notes": "It's behind you",
       "color": ""
     }
   ]
