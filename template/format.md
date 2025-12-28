@@ -6,15 +6,17 @@ All file name have to be **lowercase-with-dash**
 
 To not make file name unnecessary long, see [prefixes](#prefixes)
 
-File extensions: image `webp/jpg`, video `mp4`, metadata `json`
+File extensions: image `webp/png`, video `mp4`, metadata `json`
 
 > Template
 
 ```
 assets/
 ├ <cat>/
-│ ├ <sub_cat>-<title>.<jpg/mp4>
-│ ├ <sub_cat>-<title>.<webp>
+│ ├ <sub_cat>/
+│ ├ ├ <title>.<png/mp4>
+│ ├ ├ <title>.webp
+│ ├ └ ...
 │ └ ...
 └ ...
 
@@ -26,24 +28,24 @@ data/
 > Example
 
 ```
-assets/illustration/bg-sample.jpg
-assets/illustration/bg-sample.webp
+assets/illustration/background/sample.jpg
+assets/illustration/background/sample.webp
 
 data/illu-bg-sample.json
 ```
 
 ## Prefixes
 
-- illustration `illu` / live2D `l2d`
+- illustration `illu` / live2d `l2d`
   - background `bg`
   - character `char`
   - disc `disc`
     - element `aqua, ignis, terra, ventus, lux, umbra`
     - rarity (☆) `3, 4, 5`
-- battle stage `bat`
-  - monolith ascension `mono`
+- battle_stage `bat`
+  - monolith_ascension `mono`
     - domain `battle, choice, trade, rival, boss`
-- UI `ui`
-  - in-game `game`
+- ui `ui`
+  - in_game `game`
   - encyclopedia (guide) `guide`
 - other `other`
