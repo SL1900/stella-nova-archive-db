@@ -39,7 +39,7 @@ if (hasBumpConfig) {
   const newVersion = `${major}.${minor}.${patch}`;
   const updatedData =
     data.substring(0, start + startMarker.length) +
-    "\n" +
+    "\n> v" +
     newVersion +
     "\n" +
     data.substring(end);
