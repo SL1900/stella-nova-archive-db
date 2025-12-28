@@ -26,8 +26,8 @@ jobs:
 
       - name: Commit & push index
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add fileIndex.json
           git commit -m "Update fileIndex.json v${{ steps.bump.outputs.newVersion }}" || echo "No version changes"
           git add README.md
