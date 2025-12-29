@@ -43,7 +43,7 @@ Steps on how to contribute:
 
 0. Create an issue first, stating which assets you want to do the job in the issue description. Wait for approval, then you can continue to next step.
 
-1. checkout to branch `data-modify` and make changes there.
+1. Checkout to branch `data-modify` and make changes there.
 2. Open [Stella Nova Archive](https://bb-69.github.io/stella-nova-archive/#/browse) site and click `Edit Mode` to enter edit session.
 
    ![sna1](../public/doc/sna1.png)
