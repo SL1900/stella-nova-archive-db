@@ -25,10 +25,8 @@ if (hasBumpConfig) {
     process.exit(1);
   }
 
-  const versionText = data
-    .substring(start + startMarker.length, end)
-    .trim()
-    .substring(1);
+  let versionText = data.substring(start + startMarker.length, end).trim();
+  versionText = versionText.substring(versionText.indexOf("v") + 1);
   let [major, minor, patch] = versionText.split(".").map(Number);
 
   if (vBumpConfigJson.major) {
