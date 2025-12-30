@@ -1,5 +1,5 @@
 {
-  "id": "3015",
+  "id": "4048",
   "type": "image",
   "category": "illustration",
   "sub_category": [
@@ -8,14 +8,14 @@
   "title": "Snowy Night Surprise",
   "description": "< null >",
   "source": [
-    "assets/illustration/disc/3015.webp",
-    "assets/illustration/disc/3015.png"
+    "assets/illustration/disc/4048.webp",
+    "assets/illustration/disc/4048.png"
   ],
   "meta": {
     "width": 1700,
     "height": 1700,
     "frames": null,
-    "version": "0.0.0"
+    "version": "1.4.0"
   },
   "overlays": [
     {
