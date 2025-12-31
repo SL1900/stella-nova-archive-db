@@ -20,13 +20,9 @@ If you had all that sorted out, next is steps on how to contribute:
 0. Create an issue first, stating what you are gonna add in the issue description. Wait for approval, then you can continue to next step.
 
 1. Checkout to branch `data-modify` and make changes there.
-
 2. Put images in the right [category](../template/template.md/#category) and [sub-category](../template/template.md/#sub-category) directory in [assets/](/assets/)
-
 3. Name your images with the following [format](../template/format.md/#format)
-
 4. After you've done this for all the assets, open a PR and state what you've added in the PR description. (You can also request for more category/sub-category here if it doesn't exist)
-
 5. Wait for review. (and merge)
 
 ## Translation Overlays
@@ -56,8 +52,9 @@ Steps on how to contribute:
 
    ![sna2](../public/doc/sna2.png)
 
-6. After you've done your satisfaction amount, open a PR and state what you've added in the PR description.
-7. Wait for review. (and merge)
+6. After you've done your satisfaction amount, put all `json` files inside [data/](../data/)
+7. Open a PR and state what you've added in the PR description.
+8. Wait for review. (and merge)
 
 ### Bonus
 
